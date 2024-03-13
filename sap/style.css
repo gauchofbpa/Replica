@@ -1,0 +1,56 @@
+/* Sap new style */
+@media only screen{
+.imgrobo {
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+}    
+body{
+    margin: 5px;
+}
+section{
+    display: flex;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(24, 24, 209);
+    margin-left: 50px;
+}
+h2 {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: -5%;
+}
+#quadradomaior {
+    background: lightblue;
+    margin: 10px;
+    width: 1200px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+}
+#quadradomenor {
+    background: lightblue;
+    margin: 10px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+}
+#eclipse{
+    background: rgb(24, 24, 209);
+    margin-left: 45px;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+}
+.bolaeclipse {
+    background: white;
+    margin-left: 300px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    transform: translate(-105% , 4%);
+}
+}
