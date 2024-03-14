@@ -1,4 +1,5 @@
 /* Sap new style */
+/* quadrado maior 1 */
 @media only screen{
 .imgrobo {
     width: 150px;
@@ -23,34 +24,83 @@ h2 {
     margin-top: -5%;
 }
 #quadradomaior {
-    background: lightblue;
+    background: rgb(219, 230, 255);
     margin: 10px;
-    width: 1200px;
+    width: 60%;
     height: 300px;
     border-radius: 10px;
     display: flex;
-}
-#quadradomenor {
-    background: lightblue;
-    margin: 10px;
-    width: 700px;
-    height: 300px;
-    display: flex;
-    border-radius: 10px;
 }
 #eclipse{
     background: rgb(24, 24, 209);
     margin-left: 45px;
-    width: 300px;
-    height: 70px;
+    width: 250px;
+    height: 40px;
     border-radius: 50px;
+}
+.textoeclipse {
+    color: white;
+    font-size: 25px;
+    transform: translate(20% , -200%);
 }
 .bolaeclipse {
     background: white;
     margin-left: 300px;
-    width: 65px;
-    height: 65px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
-    transform: translate(-105% , 4%);
+    transform: translate(-215% , 0%);
+}
+.flexaeclipse{
+    font-size: 30px;
+    color: rgb(24, 24, 209);
+    transform: translate(88% , -309%);
+}
+#containertabelaeclipse{
+    margin-top: 30px;
+}
+#eclipsetabela {
+    background: rgb(24, 24, 209);
+    margin: 10px; 
+    width: 400px; /* largura */
+    height: 35px; /* Altura */
+    border-radius: 50px;
+    margin-left: 90px;/* Margem esquerda */
+    margin-top: -2%;
+}
+.textoeclipsetabela {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(0% , 35%);
+}
+.bolaeclipsetabela{
+    background: white;
+    margin-left: 370px;
+    margin-top: 0%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    transform: translate(0% , -113%);
+}
+.flexaeclipsetabela{
+    font-size: 20px;
+    color: rgb(24, 24, 209);
+    transform: translate(0% , -338%);
+    margin-left: 378px;
+}
+/* quadrado menor 1 */
+#quadradomenor {
+    background: rgb(219, 230, 255);
+    margin: 10px;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+}
+.textoquadradomenor { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(24, 24, 209);
 }
 }
