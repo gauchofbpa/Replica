@@ -27,7 +27,7 @@ h2 {
     background: rgb(219, 230, 255);
     margin: 10px;
     width: 60%;
-    height: 300px;
+    height: 500px;
     border-radius: 10px;
     display: flex;
 }
@@ -93,8 +93,8 @@ h2 {
 #quadradomenor {
     background: rgb(219, 230, 255);
     margin: 10px;
-    width: 40%;
-    height: 300px;
+    width: 38%;
+    height: 500px;
     display: flex;
     border-radius: 10px;
 }
@@ -102,5 +102,55 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: rgb(24, 24, 209);
+    margin: 10px;
+}
+.textomenorquadradomenor {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(24, 24, 209);
+    margin-left: 0px; 
+    transform: translate(0% , -5%);
+}
+.textoNReq{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(24, 24, 209);
+    margin-left: 300px; 
+}
+/* Quadrado maior 2 */
+#quadradomaior2 {
+    background: rgb(219, 230, 255);
+    margin: 10px;
+    width: 60%;
+    height: 390px;
+    border-radius: 10px;
+    display: flex;
+}
+/* Quadrado menor 2 */
+#quadradomenor2 {
+    background: rgb(219, 230, 255);
+    margin: 10px;
+    width: 38%;
+    height: 390px;
+    display: flex;
+    border-radius: 10px;
+}
+/* Quadrado maior 3 */
+#quadradomaior3 {
+    background: rgb(219, 230, 255);
+    margin: 10px;
+    width: 60%;
+    height: 470px;
+    border-radius: 10px;
+    display: flex;
+}
+    /* quadrado menor 3 */
+#quadradomenor3 {
+    background: rgb(219, 230, 255);
+    margin: 10px;
+    width: 38%;
+    height: 470px;
+    display: flex;
+    border-radius: 10px;
 }
 }
