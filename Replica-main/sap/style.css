@@ -16,7 +16,7 @@ section{
     display: flex;
 }
 .container{
-    margin: 40px;
+    margin: 30px;
 }
 h1 {
     font-size: 30px;
@@ -253,6 +253,12 @@ h2 {
     transform: translate(12% , 0%);
     mix-blend-mode: multiply;
 }
+.textoimagem2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(24, 24, 209);
+    text-align: center;
+}
 /* Quadrado menor 2 */
 #quadradomenor2 {
     background: rgb(219, 230, 255);
@@ -261,24 +267,101 @@ h2 {
     height: 280px;
     border-radius: 10px;
 }
-
-
+#eclipsequadradomenor2 {
+    width: 630px;
+    height: 45px;
+    background: aliceblue;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.imgusuario {
+    width: 45px;
+    height: 45px;
+    object-fit: fill;
+    mix-blend-mode: multiply;
+}
+.textousuario {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+.textousuario1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: grey;
+    position:relative;
+}
+.textomes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: grey;
+    position: absolute;
+    text-align: right;
+    transform: translate(1600% , -50%);
 }
 /* Quadrado maior 3 */
 #quadradomaior3 {
     background: rgb(219, 230, 255);
     margin:10px;
     width: 60%;
-    height: 280px;
+    height: 300px;
     border-radius: 10px;
-    display: flex;
+}
+.textomenor3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(24, 24, 209);
+    margin-left: 550px;
+}
+#eclipse3 {
+    width: 1085px;
+    height: 70px;
+    background: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+.textonrpedido {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+}
+.imgstatus {
+    width: 800px;
+    height: 60px;
+    object-fit: fill;
+    margin-left: 100px;
 }
     /* quadrado menor 3 */
 #quadradomenor3 {
     background: rgb(219, 230, 255);
     margin: 10px;
     width: 38%;
-    height: 280px;
-    display: flex;
+    height: 300px;
     border-radius: 10px;
+}
+.texto3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: rgb(24, 24, 209);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.texto33{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(24, 24, 209);
+    margin-left: 120px;
+}
+.container2 {
+    margin: 40px;
+}
+.imgquadrado3 {
+    width: 120px;
+    height: 150px;
+    object-fit: fill;
+    transform: translate(12% , 0%);
+    mix-blend-mode: multiply;
+}
 }
